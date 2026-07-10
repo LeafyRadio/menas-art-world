@@ -1,0 +1,81 @@
+/* Overall Page Background */
+body {
+	background-image: url(Space.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+/* Ensure HTML5 Layout Tags Render Correctly */
+header, section, footer, aside, nav, article, hgroup {
+	display: block;
+}
+
+/* Header Text FX */
+#Main_header {
+	color: whitesmoke;
+	text-shadow: 2px 2px 4px black, 0 0 50px blue, 0 0 7px darkblue;
+	height: 50px;
+	padding: 10px 20px;
+}
+
+/* Main Content Wrapper Container */
+#First {
+	border: 2px groove black;
+	height: auto;
+	width: auto;
+	margin: auto;
+	text-align: left;
+	border-radius: 10px;
+	background-image: url(Space.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+/* Navigation Menu Bar Styling */
+#Main_menu {
+	background-color: rgba(245, 245, 245, 0.2); /* Creates a slick glass/translucent effect */
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	height: auto; /* Let it scale naturally with image/content */
+}
+
+#Main_menu li {
+	display: inline-block;
+	padding: 10px 15px;
+	list-style: none;
+	color: whitesmoke;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#Main_menu a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Structural Layout: Main Text Section */
+#Main_section {
+	float: left;
+	width: 660px;
+	margin: 15px;
+	padding-top: 5px;
+	color: whitesmoke;
+	text-shadow: 2px 2px 3px black, 0 0 50px blue, 0 0 7px darkblue;
+}
+
+/* Footer FX */
+#footer {
+	clear: both; /* Keeps footer at the bottom below floats */
+	color: whitesmoke;
+	text-shadow: 2px 2px 3px black, 0 0 50px blue, 0 0 7px darkblue;
+	padding: 20px;
+}
+
+/* Extra Home Section Utilities */
+.Home {
+	padding: 6rem 1rem;
+	text-align: center;
+}
